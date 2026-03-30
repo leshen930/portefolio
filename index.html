@@ -38,6 +38,31 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
+    h2 {
+      color: #2c3e50;
+    }
+
+    /* Image entreprise à gauche */
+    .image-entreprise {
+      width: 300px;
+      float: left;
+      margin-right: 20px;
+      border-radius: 8px;
+    }
+
+    /* Nettoyage du float */
+    .clear {
+      clear: both;
+    }
+
+    img {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: 10px auto;
+      border-radius: 8px;
+    }
+
     table {
       width: 100%;
       border-collapse: collapse;
@@ -56,14 +81,6 @@
     th {
       background-color: #3498db;
       color: white;
-    }
-
-    img {
-      width: 100%;
-      max-width: 500px;
-      display: block;
-      margin: 10px auto;
-      border-radius: 8px;
     }
 
     footer {
@@ -91,10 +108,13 @@
   <p>Je suis étudiant en BTS SIO en alternance. Je développe mes compétences en administration réseau, support informatique et gestion des systèmes.</p>
 
   <h3>Entreprise</h3>
-  <p>Mon entreprise est spécialisée dans les services informatiques, notamment la gestion d'infrastructures réseau et le support technique aux utilisateurs.</p>
 
-  <img src="pworal.jpg" alt="Entreprise Pworal">
+  <!-- Image à gauche -->
+  <img src="pworal.jpg" alt="Entreprise Pworal" class="image-entreprise">
 
+  <p>Mon entreprise est spécialisée dans les services informatiques, notamment la gestion d'infrastructures réseau et le support technique aux utilisateurs. Elle accompagne ses clients dans l'installation, la maintenance et la sécurisation de leurs systèmes informatiques.</p>
+
+  <div class="clear"></div>
 </section>
 
 <section id="mission1">
